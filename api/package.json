@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API node",
+  "main": "server.js",
+  "repository": "api",
+  "author": "Heitor Hatakeyama",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon -r dotenv/config --delay 500ms server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
